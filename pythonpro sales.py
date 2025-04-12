@@ -5,7 +5,7 @@ import seaborn as sns
 #Loading dataset
 data=pd.read_excel("retail_sales_dataset.xlsx")
 print(data)
-#Exploring Dataset
+#Exploring 
 print("Information of DataSet:  \n",data.info())
 print("Description of DataSet:  \n",data.describe())
 #Handling Missing Values
