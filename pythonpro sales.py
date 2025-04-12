@@ -7,7 +7,7 @@ data=pd.read_excel("retail_sales_dataset.xlsx")
 print(data)
 #Exploring Dataset
 print("Information of DataSet:  \n",data.info())
-print("Description of DataSet:  \n",data.describe())
+print("Description of DataSet1:  \n",data.describe())
 #Handling Missing Values
 print("Missing values: ",data.isnull().sum())
 data['Quantity']=data['Quantity'].fillna(12)
