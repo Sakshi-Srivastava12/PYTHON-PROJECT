@@ -92,7 +92,7 @@ plt.figure(figsize=(12,6))
 plt.plot(sales.index,sales.values,marker="*",ls="dashed", color="b")
 plt.title("SALES TREND OVER TIME")
 plt.xlabel("date")
-plt.ylabel("Total Amount")
+plt.ylabel("Total AmountT")
 plt.show()
 #Monthly sales trend
 mon=data.groupby("Month")["Total Amount"].sum()
