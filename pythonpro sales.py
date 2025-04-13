@@ -102,7 +102,7 @@ month_order = [
 ]
 mon.index=pd.Categorical(mon.index,categories=month_order,ordered=True)
 mon=mon.sort_index()
-plt.figure(figsize=(10,6))
+plt.figure(figsize=(10,86))
 plt.barh(mon.index,mon.values,color="cyan")
 plt.xlabel("Month")
 plt.ylabel("Quantity Sold")
