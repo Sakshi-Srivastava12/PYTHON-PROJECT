@@ -88,7 +88,7 @@ plt.show()"""
 #Sales trend over time
 data["Date"]=pd.to_datetime(data["Date"])
 sales=data.groupby("Date")["Total Amount"].sum()
-plt.figure(figsize=(12,6))
+plt.figure(figsize=(12,8))
 plt.plot(sales.index,sales.values,marker="*",ls="dashed", color="b")
 plt.title("SALES TREND OVER TIME")
 plt.xlabel("date")
