@@ -193,7 +193,7 @@ sns.heatmap(
 )
 
 # Improve Labels
-plt.xticks(rotation=45, ha="right", fontsize=12)  # Rotate x-axis labels
+plt.xticks(rotation=45, ha="right", fontsize=13)  # Rotate x-axis labels
 plt.yticks(fontsize=12)  # Increase y-axis font size
 plt.title("Sales Distribution Across Age Groups & Product Categories", fontsize=15, fontweight="bold")
 plt.xlabel("Product Category", fontsize=12)
