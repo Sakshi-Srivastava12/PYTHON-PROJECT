@@ -186,7 +186,7 @@ sns.heatmap(
     cmap="Blues", 
     annot=True, 
     fmt=".0f", 
-    linewidths=0.5, 
+    linewidths=0.6, 
     cbar_kws={'shrink': 0.8},  # Shrink color bar
     annot_kws={"size": 10}
    # Adjust annotation font size
