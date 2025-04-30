@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 #Loading dataset
 data=pd.read_excel("retail_sales_dataset.xlsx")
-print(data)
+print("DATA",data)
 #Exploring Dataset
 print("Information of DataSet:  \n",data.info())
 print("Description of DataSet1:  \n",data.describe())
