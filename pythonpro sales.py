@@ -37,7 +37,7 @@ plot_df = pd.DataFrame({
     'Product Category': total.index,
     'Total Amount': total.values
 })
-plt.figure(figsize=(10,6))
+plt.figure(figsize=(10,8))
 #sns.barplot(data=plot_df ,x=total_quantity.index,y=total.values,palette='viridis')
 sns.barplot(data=plot_df, x='Product Category', y='Total Amount',  hue='Product Category',palette='viridis')
 plt.xlabel("Product Category")
